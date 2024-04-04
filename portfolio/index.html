@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c1576996ef.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <div class="header">
+            <img src="images/logo1.png" class="logo">
+            <nav class="navbar">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">   
+            <p>Good Day</p>
+            <h1> Hi, I'm <span>Kenneth Escabarte</span> </h1>
+                <h3>I'm a <span class="multiple-text"></span></h3>
+                <h5>As a versatile professional, I bring expertise in photography, UI/UX design, graphic design, and web development to every project I undertake. 
+                    With a passion for storytelling and a keen eye for composition, I excel in capturing moments that resonate with viewers through my photography. 
+                    In UI/UX design, I prioritize user-centricity, crafting intuitive and engaging digital experiences informed by user research and iterative testing. 
+                    My graphic design skills allow me to create impactful visual communication across various media, from branding and marketing collateral to digital assets and publications. 
+                    Additionally, my proficiency in web development enables me to translate design mockups into responsive and interactive web experiences, ensuring both visual appeal and functionality. 
+                    With a comprehensive skill set spanning these disciplines,
+                     I am committed to delivering innovative and compelling solutions that exceed expectations.</h5>
+        </div>
+    </div>
+   </div>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Ken.jpeg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class ="sub-title"><span>About</span> Me</h1><br>
+                <p>As a versatile professional, I seamlessly blend the realms of UI/UX design and graphic design, crafting immersive digital experiences that captivate and inspire. With a meticulous eye for detail and a passion for user-centric design, I create intuitive interfaces that seamlessly guide users through their digital journeys. My expertise in graphic design elevates every project, ensuring visual harmony and aesthetic appeal while maintaining brand integrity. Through a fusion of creativity and technical skill, I transform concepts into visually stunning, user-friendly solutions that leave a lasting impression. With a portfolio brimming with innovative designs and successful collaborations, 
+                    I am poised to deliver exceptional results that exceed expectations.</p>
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class = "tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>UI/UX Designing</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Graphic Design</span><br>Graphic Designing</li>
+                            <li><span>Photography</span><br>Landscape and Portrait Photography <br> Photo Editing and Manipulation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Official Tabulator at Miss Sikatuna</li>
+                            <li><span>2023</span><br>Official Tabulator at Queen of Bohol</li>
+                            <li><span>2023</span><br>Official Partner and Tabulator at Bohol Dive Expo 2023</li>
+                            <li><span>2023</span><br>Official Partner at 32ND Visayas Area Business Conference</li>
+                            <li><span>2023-2024</span><br>Public Relations Lead at Google Developer Student Club</li>
+                            <li><span>2022-2023</span><br>Public Relation Lead at Google Developer Student Club</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Bachelor of Science in Information Technology</li>
+                            <li><span>2018-2020 (Senior Highschool)</span><br>TVL Strand- Information and Communication Technology major in Computer Programming</li>
+                            <li><span>2014-2018 (Junior HighSchool)</span><br>Dr. Cecilio Putong National Highschool</li>
+                            <li><span>2008-2014 (Elementary)</span><br>Sta. Cruz Elementary School</li>
+
+                        </ul>
+                    </div>
+            
+                </div>
+        </div>
+    </div>
+   </div>
+   <div id="services">
+    <div class="container">
+        <br><br><br><br><h1 class="sub-title1"> My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design and Development</h2>
+                <p>In addition to my design skills, I have a solid foundation in web development.
+                     I am proficient in HTML, CSS, and JavaScript, and I am familiar with front-end frameworks like Bootstrap and React.js. 
+                     I can translate design mockups into responsive and interactive web experiences, ensuring that websites are both visually stunning and user-friendly. 
+                    While my primary focus is on design, my knowledge of web development allows me to collaborate effectively with developers and bring designs to life on the web. </p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I am a skilled UI/UX designer dedicated to crafting intuitive and engaging digital experiences. 
+                    I understand the importance of user-centric design and strive to create interfaces that are both aesthetically pleasing and highly functional. 
+                    Through user research, wireframing, prototyping, and iterative testing, I ensure that every design decision is informed by user needs and behaviors. 
+                    My goal is to create seamless and delightful interactions that leave a lasting impression on users.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphic Design</h2>
+                <p>With a keen sense of aesthetics and a flair for visual communication, I excel in graphic design across various media. 
+                    From branding and marketing collateral to digital assets and publications, I bring concepts to life with creativity and precision. 
+                    I am proficient in Adobe Creative Suite and other industry-standard tools, allowing me to create impactful designs that align with brand identity and messaging. 
+                    Whether it's designing logos, posters, brochures, or social media graphics, I deliver high-quality visual solutions that captivate and inspire.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Photography</h2>
+                <p> With a keen eye for composition and a passion for storytelling, I excel in capturing moments that resonate with viewers. 
+                    Whether it's landscape vistas, intimate portraits, or dynamic events, I strive to evoke emotions and convey narratives through my photographs.
+                     I am adept at both digital and traditional photography techniques, and I specialize in landscape, portrait, and event photography. 
+                    Additionally, my proficiency in photo editing and manipulation allows me to enhance and refine my images to perfection.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div id="portfolio">
+    <div class="container">
+        <br><br><br>  <h1 class="sub-title1">My <span>Works</span></h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/prog4.jpg">
+            <div class="layer">
+                <h3>"Enchanting Harmony: Lost in the Wilderness" (Photography)</h3>
+                <p> Lost in the forest, a woman in a blue gown stands amidst a field of wildflowers, bathed in sunlight. 
+                    She embodies the tranquility of nature's embrace, a serene moment of connection in the wilderness</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/prog5.png">
+            <div class="layer">
+                <h3>"ShapeDraw: Unleash Your Creativity" (Web Development)</h3>
+                <p>ShapeDraw is your go-to app for effortlessly creating and designing shapes with precision and ease. Whether you're a professional designer, a budding artist, or simply want to doodle, 
+                    ShapeDraw empowers you to bring your ideas to life with its intuitive interface and versatile tools</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/prog6.png">
+            <div class="layer">
+                <h3>"AlphaRift: Venture into the Unknown" (Web Development)</h3>
+                <p> Embark on an epic journey through the mystical realms of AlphaRift, where adventure awaits at every turn. 
+                    In this captivating game, players dive into a world where magic and technology collide, shaping the destiny of heroes and villains alike</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/prog7.png">
+            <div class="layer">
+                <h3>  "VerseVoyage: Explore the Depths of Poetry" (Web Development)</h3>
+                <p> VerseVoyage is your online sanctuary for poetry enthusiasts and wordsmiths alike. 
+                    Immerse yourself in a world of lyrical beauty, where every stanza is a journey of emotion and expression.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/prog8.png">
+            <div class="layer">
+                <h3>"Ursa: Unleashing Creative Potential" (Graphic Design)</h3>
+                <p> The logo for Ursa features a sleek, stylized bear's head representing strength and creativity. 
+                    The word "Ursa" is elegantly integrated below in modern font.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/prog9.png">
+            <div class="layer">
+                <h3>"His Howling Voice: A Tale of Wolves and Vampires" (Graphic Design)</h3>
+                <p>CThe book cover features a striking image of a wolf and a vampire locked in a stare-down amidst a moonlit forest. 
+                    With bold, dramatic lettering, the title invites readers into a world of supernatural intrigue and forbidden desires.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/proj1.png">
+            <div class="layer">
+                <h3>Cozy Cup Cafe - High Fidelity Wireframe (UI/UX Design)</h3>
+                <p>The Cozy Cup Cafe wireframe prototype, developed using Figma, offers a comprehensive visual representation of the user interface and user experience for the digital platform.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/prog2.png">
+            <div class="layer">
+                <h3>Cozy Cup Cafe - High Fidelity Wireframe (UI/UX Design)</h3>
+                <p>The Cozy Cup Cafe Menu Options Wireframe designed in Figma offers a clear and intuitive layout for users to explore the cafe's menu offerings.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/prog3.jpg">
+            <div class="layer">
+                <h3>"Radiant Echoes: Embracing Light" (Photograph)</h3>
+                <p>In this captivating photograph, a woman stands bathed in the ethereal glow of yellow and red lighting, creating a mesmerizing interplay of color and shadow.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    <a href="#" class="btn">We're Just Getting Started</a>
+</div>
+   </div>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title"><span>Contact</span> Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kennethescabarte21@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kennethescabarte21?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/P_hoenixxx69?t=AhgTBEu399diKIb4qF4Bcg&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/kenetthhhhhh_">
+<i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/
+                    kenneth-escabarte-890682233"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type ="text" name= "Name" placeholder="Your Name" required>
+                    <input type ="email" name= "Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @2024: For Project Purposes Only<i class="fas fa-heart"></i></i></p>
+    </div>
+   </div>
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+   </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzYcGQjpuJ8Il97T1md4xRhIKPhpjyf7LEgLyOYV_uzZsho6xkeuct-jFisVo8KNRktzg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+<script>
+    var typed = new Typed('.multiple-text', {
+        strings: ['Graphic Designer','UI/UX Designer','Photographer','Web Developer'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
+</script>
+</body>
+</html>
+
